@@ -36,6 +36,7 @@
       width: auto;
       height: 600px;
       margin-left: 50px;
+      margin-right: 50px;
       margin-top: 50px;
       font-size: 125%;
       
@@ -43,8 +44,24 @@
     
     .parallax {
       background-color: transparent;
-      height: 450px;
+      height: 475px;
       width: auto;
+      vertical-align: middle;
+      line-height: 475px;
+      text-align: center;
+    }
+    
+    .pblur:hover {
+      background-color: transparent;
+      height: 475px;
+      width: auto;
+      vertical-align: middle;
+      line-height: 475px;
+      text-align: center;
+      -webkit-filter: blur(2px);
+      blur(2px);
+      transition: .4s ease-in-out;
+      overflow:hidden;
     }
         
     .footer {
@@ -73,7 +90,7 @@ Lis0v
     <h1>Witam na mojej stronie</h1>
     </div>
     
-    <div class="parallax" data-parallax="scroll" data-image-src="./setup.jpg">
+    <a href<div class="parallax" data-parallax="scroll" data-image-src="./setup.jpg">
       <h1 align="center">test</h1>
     </div>
       
