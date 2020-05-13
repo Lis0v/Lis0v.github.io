@@ -49,6 +49,32 @@
       line-height: 475px;
       text-align: center;
     }
+    
+     .pblur:hover {
+      background-color: transparent;
+      height: 475px;
+      width: auto;
+      vertical-align: middle;
+      line-height: 475px;
+      text-align: center;
+      webkit-filter: blur(4px);
+      filter: blur(4px);
+      transition: .4s ease-in-out;
+      overflow:hidden;
+    }
+    
+    .pblur {
+      background-color: transparent;
+      height: 475px;
+      width: auto;
+      vertical-align: middle;
+      line-height: 475px;
+      text-align: center;
+      webkit-filter: blur(0px);
+      filter: blur(0px);
+      transition: .4s ease-in-out;
+      overflow:hidden;
+    }
         
     .footer {
       font-family: 'Montserrat';
@@ -76,7 +102,7 @@ Lis0v
     <h1>Witam na mojej stronie</h1>
     </div>
     
-    <div class="parallax" data-parallax="scroll" data-image-src="./setup.jpg">
+    <div class="pblur" data-parallax="scroll" data-image-src="./setup.jpg">
     </div>
       
       <div class="box">
