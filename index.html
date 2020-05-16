@@ -57,24 +57,33 @@
       vertical-align: middle;
       line-height: 475px;
       text-align: center;
+       
       transform: scale(1.01);
       webkit-filter: blur(8px);
       filter: blur(8px);
       transition: .4s ease-in-out;
       margin-top: auto;
       margin-bottom: auto;
+       
+      position: relative;
+      text-align: center;
+      
     }
     
     .blur-text {
       display: none;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: auto;
-      margin-bottom: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
     
      .blur-text:hover {
        display: block;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
     }
     
     .blur {
@@ -88,7 +97,6 @@
       transition: .4s ease-in-out;
       margin-top: auto;
       margin-bottom: auto;
-      position: relative;
     }
         
     .footer {
@@ -141,15 +149,11 @@ Lis0v
     </div>
     
      <div class="blur">
-       <a href="IMG_20200513_132605104.jpg"><img src="Untitled246_20200513222919~2.png" height="475px" width="100%"></a>
+       <img src="Untitled246_20200513222919~2.png" height="475px" width="100%">
     </div>
     
     <div class="blur-text">
-      <h1>Zobacz</h1>
-    </div>
-    
-    <div class="blur-text">
-      <h1>Zobacz</h1>
+      <a href="IMG_20200513_132605104.jpg"><h1>Zobacz</h1></a>
     </div>
     
     <div class="sbox">
